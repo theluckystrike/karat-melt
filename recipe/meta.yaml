@@ -1,0 +1,20 @@
+package:
+  name: karat-melt
+  version: 0.1.0
+source:
+  path: ..
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install . --no-deps -vv
+requirements:
+  host: [python >=3.8, pip, setuptools]
+  run: [python >=3.8]
+test:
+  imports: [karat_melt]
+about:
+  home: https://goldgramprice.com/scrap-gold-calculator/
+  doc_url: https://goldgramprice.com/gold-weight-converter/
+  dev_url: https://github.com/theluckystrike/karat-melt
+  license: MIT
+  summary: Melt-value arithmetic for karat gold (fineness, troy/dwt/avoirdupois units, offer as share of melt)

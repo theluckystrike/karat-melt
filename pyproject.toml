@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "karat-melt"
+version = "0.1.0"
+description = "Melt-value arithmetic for karat gold: fineness, troy/dwt/avoirdupois units, melt value and offer-as-share-of-melt."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://goldgramprice.com/scrap-gold-calculator/"
+Source = "https://github.com/theluckystrike/karat-melt"
